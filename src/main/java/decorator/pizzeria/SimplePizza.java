@@ -1,10 +1,11 @@
-package decorator;
+package decorator.pizzeria;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SimplePizza implements IPizza{
+public class SimplePizza implements IPizza {
     private List<String> ingredients;
 
     public SimplePizza() {
