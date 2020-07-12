@@ -8,11 +8,11 @@ public class AppleMac extends AbstractPC {
 
 
     public static AbstractPC createMacPro() {
-        return new AppleMac("MacPro", COMPUTER_BRAND.APPLE, 100, 50, true);
+        return new AppleMac("MacPro", COMPUTER_BRAND.APPLE, 100, 50.5, true);
     }
 
     public static AbstractPC createMacAir() {
-        return new AppleMac("MacAir",COMPUTER_BRAND.APPLE ,70, 40, false);
+        return new AppleMac("MacAir",COMPUTER_BRAND.APPLE ,70, 40.3, false);
     }
 }
 
